@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+شnuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <div class="container">
+        <div class="applayout">
+
+            <!-- NAVBAR -->
+            <div class="navbar">
+                <span class="nav__icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <h3 class="nav__title">shopping center</h3>
+                <div class="cart-btn">
+                    <span class="nav__icon">
+                    <i class="fas fa-cart-plus"></i>
+                    </span>
+                    <div class="cart__items">0</div>
+                </div>
+            </div>
+
+            <!-- PRODUCTS -->
+            <section class="products">
+                <h1>Our Products</h1>
+                <div class="product-list">
+                    <!-- SINGLE PRODUCT CARD -->
+                </div>
+            </section>
+
+            <!-- CART MODAL -->
+            <section class="cart">
+                <div class="backdrop hidden"></div>
+                <div class="cart__modal hidden">
+                    <h4 class="cart__title">Your Cart</h4>
+                    <div class="cart__list">
+                        <!-- SINGLE CART ITEM -->
+                    </div>
+                    <div class="cart__footer">
+                        <span class="cart__total-price">total price: </span>
+                        <button class="cart__clear">clear</button>
+                        <button class="cart__confirm">confirm</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
